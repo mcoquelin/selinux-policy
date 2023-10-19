@@ -1107,3 +1107,12 @@ class user_namespace
 {
     create
 }
+
+class vduse
+{
+    devcreate
+    devdestroy
+    devopen
+    net
+    block
+}

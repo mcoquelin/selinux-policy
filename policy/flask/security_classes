@@ -207,4 +207,6 @@ class io_uring
 
 class user_namespace
 
+class vduse
+
 # FLASK

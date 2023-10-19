@@ -1938,3 +1938,17 @@ See also kernel commits
 [ed5d44d42c95](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ed5d44d42c95e8a13bb54e614d2269c8740667f9).
 
 **create** - Allow *source* to create a user namespace object
+
+## class vduse
+
+This class is used to control over VDUSE devices creation destruction and opening based on their types.
+
+** devcreate ** - Allow *source* to create a VDUSE device
+
+** devdestroy ** - Allow *source* to destroy a VDUSE device
+
+** devopen ** - Allow *source* to open a VDUSE device
+
+** net ** - Allow *source* to create/destroy/open a VDUSE device of type net
+
+** block ** - Allow *source* to create/destroy/open a VDUSE device of type block
